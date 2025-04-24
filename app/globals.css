@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "~@openfonts/noto-sans-jp_japanese/index.css";
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #777777;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ffcc21;
+  border-radius: 3px;
+}
